@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="film.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
   </head>
   <body>
     <header class="header">
@@ -22,6 +23,17 @@
       <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg">
       <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg">
       <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg">
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js" 
+          integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+
+              lightGallery(document.querySelector(".gallery"))
+
+          </script>
+    
     </div>
   </body>
 </html>
