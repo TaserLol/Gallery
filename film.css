@@ -2,20 +2,25 @@
     box-sizing: border-box;
   }
   
-  body {
+  body { 
     margin: 0;
-    font-family: sans-serif;
-    background: #f5f6f7;
+    font-family: Arial Narrow, sans-serif; 
+    background: #ffffff; 
   }
   
-  .header {
+ .header {
     text-align: center;
     text-transform: uppercase;
     padding: 32px;
-    background-color: #0a0a23;
-    color: #fff;
-    border-bottom: 4px solid #fdb347;
+    background-color: ;;
+    color: #000000;
+    border-bottom: 3px solid #fdb347; 
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+    margin-top: 
   }
+  
   
   .gallery {
     display: flex;
