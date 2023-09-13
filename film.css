@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   
-  body { 
+  body { text-align: center;
     margin: 0;
     font-family: Arial Narrow, sans-serif; 
     background: #ffffff; 
@@ -14,7 +14,7 @@
     padding: 32px;
     background-color: ;;
     color: #000000;
-    border-bottom: 3px solid #fdb347; 
+     
     margin-right: ;
     margin-left: ;
     margin-bottom: 40px;
