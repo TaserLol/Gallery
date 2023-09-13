@@ -51,7 +51,10 @@ body::-webkit-scrollbar {
     display: none;
   }
 
-@media only screen and (max-width: 600px) {
-.vc_custom_1528382333513 span {
-font-size:
+.divider{
+  width: 300px;
+  height: 3px;
+  background-color: seagreen;
+  display: inline-block;
+  }
   
