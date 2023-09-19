@@ -1,3 +1,5 @@
+
+
 *{
   font-family: 'Montserrat', sans-serif;
   margin:0; padding:0;
@@ -6,6 +8,16 @@
   text-decoration: none;
   text-transform: capitalize;
   transition: all .2s linear;
+  
+}
+
+h2{
+  text-align: right;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: lowercase;
+  padding-bottom: 3px;
+  padding-right: 5px;
 }
 
 body{
@@ -16,7 +28,10 @@ body{
   margin: 0;
   font-family: Arial Narrow, sans-serif;
   background: #ffffff; font-weight: 100;
-  padding-top: 
+  padding-top: 10px; ;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  
   
 
 }
@@ -37,7 +52,8 @@ body{
   max-width: 1400px;
   margin: 0 auto;
   padding: 50px 0p;
-  padding-top: 45px}
+  padding-top: 45px;
+justify-content: space-evenly;}
 
 
 
@@ -56,10 +72,14 @@ body{
   color:#334;
 }
 
+
+
+
+
 .container .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap:20px;
+  gap:20px;  
 }
 
 .container .box-container .box{
@@ -73,7 +93,11 @@ body{
 .container .box-container .box:nth-child(1),
 .container .box-container .box:nth-child(2),
 .container .box-container .box:nth-child(3),
-.container .box-container .box:nth-child(4)
+.container .box-container .box:nth-child(4),
+.container .box-container .box:nth-child(5),
+.container .box-container .box:nth-child(6),
+.container .box-container .box:nth-child(7),
+.container .box-container .box:nth-child(8)
 {
   display: inline-block;
 }
