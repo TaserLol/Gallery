@@ -91,8 +91,23 @@ justify-content: space-evenly;}
 .container .box-container .box:nth-child(1),
 .container .box-container .box:nth-child(2),
 .container .box-container .box:nth-child(3),
-.container .box-container .box:nth-child(4)
-
+.container .box-container .box:nth-child(4),
+.container .box-container .box:nth-child(5),
+.container .box-container .box:nth-child(6),
+.container .box-container .box:nth-child(7),
+.container .box-container .box:nth-child(8),
+.container .box-container .box:nth-child(9),
+.container .box-container .box:nth-child(10),
+.container .box-container .box:nth-child(11),
+.container .box-container .box:nth-child(12),
+.container .box-container .box:nth-child(13),
+.container .box-container .box:nth-child(14),
+.container .box-container .box:nth-child(15),
+.container .box-container .box:nth-child(16),
+.container .box-container .box:nth-child(17),
+.container .box-container .box:nth-child(18),
+.container .box-container .box:nth-child(19),
+.container .box-container .box:nth-child(20)
 {
   display: inline-block;
 }
