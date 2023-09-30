@@ -330,21 +330,21 @@
       
       </div>
 
-   <div id="load-more"> load more </div>
+  
 
 </div>
 <h2 class="header">contact me: marcojulioorozco@gmail.com</h2>
 <script>
 
 let loadMoreBtn = document.querySelector('#load-more');
-let currentItem = 4;
+let currentItem = 20;
 
 loadMoreBtn.onclick = () =>{
    let boxes = [...document.querySelectorAll('.box ')];
-   for (var i = currentItem; i < currentItem + 4; i++){
+   for (var i = currentItem; i < currentItem + 20; i++){
       boxes[i].style.display = 'inline-block';
    }
-   currentItem += 4;
+   currentItem += 20;
 
    if(currentItem >= boxes.length){
       loadMoreBtn.style.display = 'none';
