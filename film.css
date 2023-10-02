@@ -37,7 +37,7 @@ body{
 }
 .divider{
   width: 300px;
-  height: 3px;
+  height: 2px;
   background-color: seagreen;
   display: inline-block;
   ;
