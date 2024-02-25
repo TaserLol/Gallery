@@ -22,8 +22,7 @@ h2{
 }
 
 body{
- background-color: white; -moz-transform: scale(1.3); /* for Firefox, default 1*/
-    zoom:130%; /* For Chrome, IE, default 100%*/ 
+ background-color: white; zoom: 125%
 }
 
 .heading { text-align: center; 
